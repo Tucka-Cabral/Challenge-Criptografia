@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="shortcut icon" sizes="90x90" href="assets/logo_90x90.png">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/logo_90x90.png" alt="Logo Thais Cabral">
+    </header>
+    <main class="container">
+        <section class="container__bloco1">
+            <input class="container__bloco1__input" type="text" placeholder="Digite seu texto" autofocus="true">
+            <p class="container__bloco1__exclamacao">
+                <img src="assets/ponto-de-exclamacao.png" alt="Ponto de exclamação">
+                Apenas letras minúsculas e sem acento.
+            </p>
+            <div class="container__bloco1__botoes">
+                <button onclick="Criptografar()" class="container__bloco1__botoes__cripto">
+                    <img src="assets/cripto_botao_40x40.png" alt="" >
+                    Criptografar
+                </button>
+                
+                <button onclick="Descriptografar()" class="container__bloco1__botoes__descripto" >
+                    <img src="assets/descripto_botao_40x40.png" alt="">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+        <section class="container__bloco2">
+            <img class="container__bloco2__img" src="assets/eu_lap_cripto.png" alt="">
+            <input class="container__bloco2__input" type="text" placeholder="Digite seu texto">
+            <p class="container__bloco2__paragrafo1">Nenhuma mensagem encontrada</p>
+            <p class="container__bloco2__paragrafo2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <div class="container__bloco2__botoes">
+                <button onclick="Copiar()" class="container__bloco2__botoes__copiar">
+                    Copiar
+                </button>
+                
+                <button onclick="Limpar()" class="container__bloco2__botoes__limpar" >
+                    Limpar
+                </button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <p class="rodape__desenvolvido">Site desenvolvido por: Thais Cabral</p>
+        <div>**  Ícones criados por:         
+            <a href="https://www.flaticon.com/br/icones-gratis/criptografia-de-dados" title="criptografia de dados ícones">Triangle Squad - Flaticon (ícone botão criptografar)</a> e
+            <a href="https://www.flaticon.com/br/icones-gratis/criptografia" title="criptografia ícones"> (ícone botão descriptografar)</a>  e
+            <a href="https://www.flaticon.com/br/icones-gratis/criptografado" title="criptografado ícones">Slamlabs - Flaticon (ícone tela laptop)</a>        
+        </div>
+    </footer>
+
+</body>
+</html>
