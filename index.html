@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador</title>
-    <link rel="shortcut icon" sizes="90x90" href="assets/logo_90x90.png">
+    <link rel="shortcut icon" href="assets/logo_90x90.png">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header>
         <img src="assets/logo_90x90.png" alt="Logo Thais Cabral">
     </header>
     <main class="container">
         <section class="container__bloco1">
-            <input class="container__bloco1__input" type="text" placeholder="Digite seu texto" autofocus="true">
-            <p class="container__bloco1__exclamacao">
-                <img src="assets/ponto-de-exclamacao.png" alt="Ponto de exclamação">
-                Apenas letras minúsculas e sem acento.
-            </p>
+            <textarea class="container__bloco1__textarea" cols="50" rows="100" placeholder="Digite seu texto" autofocus="true"></textarea>
+            <div class="container__bloco1__exclamacao">
+                <img class="logo_exclamacao" src="assets/ponto-de-exclamacao.png" alt="Ponto de exclamação">
+                <p> Apenas letras minúsculas e sem acento.</p>
+            </div>
             <div class="container__bloco1__botoes">
                 <button onclick="Criptografar()" class="container__bloco1__botoes__cripto">
                     <img src="assets/cripto_botao_40x40.png" alt="" >
@@ -31,15 +31,15 @@
             </div>
         </section>
         <section class="container__bloco2">
-            <img class="container__bloco2__img" src="assets/eu_lap_cripto.png" alt="">
-            <input class="container__bloco2__input" type="text" placeholder="Digite seu texto">
-            <p class="container__bloco2__paragrafo1">Nenhuma mensagem encontrada</p>
-            <p class="container__bloco2__paragrafo2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <img id="b2img" class="container__bloco2__img" src="assets/eu_lap_cripto.png" alt="">
+            <img id="b2img2" class="container__bloco2__img2" src="assets/eu_callme.webp" alt="Gostou me liga!">
+            <p id="b2p1" class="container__bloco2__paragrafo1">Nenhuma mensagem encontrada</p>
+            <p id="b2p2" class="container__bloco2__paragrafo2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <textarea class="container__bloco2__textarea" cols="25" rows="50"></textarea>
             <div class="container__bloco2__botoes">
                 <button onclick="Copiar()" class="container__bloco2__botoes__copiar">
                     Copiar
-                </button>
-                
+                </button>                
                 <button onclick="Limpar()" class="container__bloco2__botoes__limpar" >
                     Limpar
                 </button>
