@@ -32,13 +32,13 @@ body{
 .container__bloco1{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 25%;
     
 }
 
 .container__bloco1__textarea{
     resize: none;
-    width: 100%;
+    width: 90%;
     height: 500px;
     border-radius: 16px;
     background-color:transparent;
@@ -73,6 +73,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 14px;
+    width: 90%;
 }
 
 .container__bloco1__botoes__cripto{
@@ -233,7 +234,7 @@ body{
 
 
 
-@media (max-width: 768px){
+@media (max-width: 950px){
 
 .container{
     display: flex;
@@ -246,8 +247,8 @@ body{
 .container__bloco1{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 500px;
+    width: 90%;
+    height: 525px;
     padding: 5%;
     margin: 5% 5% 5% 0%;
     border-radius: 16px;
@@ -347,7 +348,7 @@ body{
 }
 }
 
-@media (max-width: 375px){
+@media (max-width: 540px){
 
     .container{
         display: flex;
