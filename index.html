@@ -13,18 +13,18 @@
     </header>
     <main class="container">
         <section class="container__bloco1">
-            <textarea class="container__bloco1__textarea" cols="50" rows="100" placeholder="Digite seu texto" autofocus="true"></textarea>
+            <textarea id="b1textarea" class="container__bloco1__textarea" cols="50" rows="100" placeholder="Digite seu texto" autofocus="true"></textarea>
             <div class="container__bloco1__exclamacao">
                 <img class="logo_exclamacao" src="assets/ponto-de-exclamacao.png" alt="Ponto de exclamação">
                 <p> Apenas letras minúsculas e sem acento.</p>
             </div>
             <div class="container__bloco1__botoes">
-                <button onclick="Criptografar()" class="container__bloco1__botoes__cripto">
+                <button onclick="criptografar()" class="container__bloco1__botoes__cripto">
                     <img src="assets/cripto_botao_40x40.png" alt="" >
                     Criptografar
                 </button>
                 
-                <button onclick="Descriptografar()" class="container__bloco1__botoes__descripto" >
+                <button onclick="descriptografar()" class="container__bloco1__botoes__descripto" >
                     <img src="assets/descripto_botao_40x40.png" alt="">
                     Descriptografar
                 </button>
@@ -32,15 +32,14 @@
         </section>
         <section class="container__bloco2">
             <img id="b2img" class="container__bloco2__img" src="assets/eu_lap_cripto.png" alt="">
-            <img id="b2img2" class="container__bloco2__img2" src="assets/eu_callme.webp" alt="Gostou me liga!">
             <p id="b2p1" class="container__bloco2__paragrafo1">Nenhuma mensagem encontrada</p>
             <p id="b2p2" class="container__bloco2__paragrafo2">Digite um texto que você deseja criptografar ou descriptografar.</p>
-            <textarea class="container__bloco2__textarea" cols="25" rows="50"></textarea>
+            <textarea id="b2textarea" class="container__bloco2__textarea" cols="25" rows="50"></textarea>
             <div class="container__bloco2__botoes">
-                <button onclick="Copiar()" class="container__bloco2__botoes__copiar">
+                <button id="btncopiar" onclick="copiar()" class="container__bloco2__botoes__copiar">
                     Copiar
                 </button>                
-                <button onclick="Limpar()" class="container__bloco2__botoes__limpar" >
+                <button onclick="limpar()" class="container__bloco2__botoes__limpar" >
                     Limpar
                 </button>
             </div>
@@ -55,6 +54,6 @@
             <a href="https://www.flaticon.com/br/icones-gratis/criptografado" title="criptografado ícones">Slamlabs - Flaticon (ícone tela laptop)</a>        
         </div>
     </footer>
-
+    <script src="app.js" defer></script>
 </body>
 </html>
