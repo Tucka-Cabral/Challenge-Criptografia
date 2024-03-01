@@ -73,7 +73,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 14px;
-    width: 90%;
+    width: 100%;
 }
 
 .container__bloco1__botoes__cripto{
@@ -84,7 +84,7 @@ body{
     border-radius: 24px;
     background: var(--cor-tres);
     padding: 8px 24px;
-    width: 100%;
+    width: 50%;
     font-size: 16px;
     color: var(--cor-quatro);
     border: none;
@@ -103,7 +103,7 @@ body{
     border-radius: 24px;
     background: var(--cor-cinco);
     padding: 8px 24px;
-    width: 100%;
+    width: 50%;
     font-size: 16px;
     color: var(--cor-dois);
     border: 1px solid var(--cor-dois);
