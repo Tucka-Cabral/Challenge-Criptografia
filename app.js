@@ -82,5 +82,13 @@ function copiar(){
 }
 
 function limpar(){
-    location.reload()
+    var img = document.querySelector("#b2img");
+    img.setAttribute('src', 'assets/eu_lap_cripto.png');
+    document.getElementById("b2p1").style.display = "block";
+    document.getElementById("b2p2").innerHTML = 'Digite um texto que você deseja criptografar ou descriptografar.';
+    const textArea1 = document.querySelector('#b1textarea');
+    const textArea2 = document.querySelector('#b2textarea');
+    textArea1.value = '';
+    textArea2.value = '';
+    
 }

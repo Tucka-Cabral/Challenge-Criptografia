@@ -153,7 +153,6 @@ body{
     width: 90%;
     height: 225px;
     padding-left: 8%;
-    padding-top: 8%;
     background-color: var(--cor-quatro);
     border: none;
     outline: none;
@@ -216,14 +215,23 @@ body{
     color: var(--cor-dois);
 }
 
-.rodape__desenvolvido{
+.rodape__bloco{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding-bottom: 0.5%;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 3%;
+}
+
+
+.rodape__bloco__paragrafo{
     font-size: 12px;
     font-weight: 700;
     color: var(--cor-dois);
 }
+
+
 
 @media (max-width: 768px){
 
